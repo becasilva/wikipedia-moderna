@@ -25,6 +25,10 @@ blockquote {
     background-color: antiquewhite;
     padding: 0 1.2em;
 }
+#table {
+    border: 1px solid black;
+    align-items: center;
+}
 .main {
     text-align: justify;
 }
