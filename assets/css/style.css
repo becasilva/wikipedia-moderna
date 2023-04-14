@@ -25,9 +25,16 @@ blockquote {
     background-color: antiquewhite;
     padding: 0 1.2em;
 }
-#table {
+table thead {
+    font-size: larger;
+    font-weight: bold;
+    background-color: moccasin;
+}
+table tr:nth-child(even) {
+    background-color: #cdcdcd;
+}
+table td {
     border: 1px solid black;
-    align-items: center;
 }
 .main {
     text-align: justify;
